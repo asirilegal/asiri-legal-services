@@ -194,7 +194,7 @@
             <p><strong>Service Area:</strong> Ontario</p>
           </div>
         </div>
-        <form class="contact-form" onsubmit="event.preventDefault(); document.getElementById('form-message').textContent='Form demo only — connect this form to your email or booking provider before launch.';">
+        <form action="https://formspree.io/f/meajgvek " method="POST">
           <label>Name<input type="text" name="name" required /></label>
           <label>Email<input type="email" name="email" required /></label>
           <label>Matter Type
@@ -208,7 +208,7 @@
           </label>
           <label>Brief Description<textarea name="message" rows="5" required></textarea></label>
           <button class="btn btn-light" type="submit">Submit Inquiry</button>
-          <p id="form-message" class="form-message" aria-live="polite"></p>
+          
         </form>
       </div>
     </section>
